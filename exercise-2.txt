@@ -1,12 +1,12 @@
 1.
-git commit --amend : edit nội dung message commit, chế độ VIM
+git commit --amend : edit nội dung message commit gần nhất, giao diện VIM
 git commit --amend -m"message": edit trực tiếp nội dung message không cần VIM
 git restore --staged <file>: đưa file đã từ staging về working directory
 git reset HEAD~: đưa file đã commit từ repository về working directory
 2.
 a.working/staging/repository: no file
 b.working/staging/repository: no file
-c.working:/staging/repository: no file; staging/repository: no file
+c.working:/staging/repository: no file
 d.working: file2, file3 ; staging: file1; repository: no file
 e.working: file2, file3 ; staging: no file; repository: file1
 f.working: no file; staging: file2, file3 ; repository: file1
