@@ -1,0 +1,10 @@
+1.
+git init: khởi tạo thư mục quản lý bởi git (3 vùng:working, staging, repositories)
+git add <file name>: dua file chi dinh tu working space len staging space
+git add . : dua toan bo file tu working space len staging space
+git commit -m "message": tao 1 commit voi message duoc chi dinh trong "message"
+
+2.
+working directory: file 2, file 3
+staging: empty
+repository: file1
